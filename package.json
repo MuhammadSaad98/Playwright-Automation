@@ -1,0 +1,13 @@
+{
+  "name": "playwright-setup",
+  "version": "1.0.0",
+  "description": "Setting up playwright project with git",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Muhammad Saad",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.6.5"
+  }
+}
