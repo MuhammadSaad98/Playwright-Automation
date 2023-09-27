@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "Setting up playwright project with git",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js"
+  },
   "author": "Muhammad Saad",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
     "@playwright/test": "^1.38.1",
     "@types/node": "^20.6.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

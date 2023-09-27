@@ -1,0 +1,7 @@
+{
+  "default": {
+    "paths": ["src/feature/.feature"],
+    "require": ["src/step-definations/*.ts", "src/support/hooks.ts"],
+    "requireModule": ["ts-node/register"]
+  }
+}
